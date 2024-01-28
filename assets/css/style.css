@@ -1,0 +1,72 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#barra {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 18px;
+}
+
+.titulo {
+    color: #000000 !important;
+    text-decoration: none !important;
+    font-family: 'Gotu', sans-serif;
+    font-size:  calc(1.5rem + 0.5vw) !important;
+}
+
+.link {
+    color: #000000 !important;
+    text-decoration: none !important;
+    font-family: 'Gotu', sans-serif;
+    font-size:  calc(1.8rem + 0.5vw) !important;
+}
+
+.link:hover {
+    color: #616161 !important;
+}
+
+
+.central {
+    position: absolute !important;
+    z-index: 3 !important;
+    background-color: #ffffff !important;
+    top: 0;
+    left: 0px !important;
+	right: 0px !important;
+    visibility: visible;
+}
+
+.esconder {
+    position: fixed !important;
+    z-index: 0 !important;
+    top: 0;
+    left: 0px !important;
+	right: 0px !important;
+    visibility: hidden;
+}
+
+.botonx {
+    text-decoration: none !important;
+    font-family: 'Gotu', sans-serif;
+    font-size:  calc(1.5rem + 0.5vw) !important; 
+}
+
+.imagen {
+    width: 80%;
+    text-align: center;
+}
+
+.arriba {
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    width: 30px !important;
+}
+
+.Copyright {
+    font-family: 'Gotu', sans-serif;
+    font-size:  calc(0.6rem + 0.2vw) !important; 
+}
