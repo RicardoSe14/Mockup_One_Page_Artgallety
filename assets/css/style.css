@@ -40,7 +40,7 @@
 }
 
 .esconder {
-    position: fixed !important;
+    position: absolute !important;
     z-index: 0 !important;
     top: 0;
     left: 0px !important;
